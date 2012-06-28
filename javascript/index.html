@@ -86,6 +86,16 @@
 
     var result = sum(50, 33);
     alert(result);
+
+    // ローカル変数
+    function getPrice(x) {
+        var rate = 0.82;  // ローカル変数
+	return (x * rate);
+    }
+
+    console.log(getPrice(83));
+
+    //console.log(rate);  // エラー
   </script>
 </body>
 </html>
